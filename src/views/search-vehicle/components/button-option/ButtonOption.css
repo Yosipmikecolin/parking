@@ -1,0 +1,29 @@
+.buttton-option-disable {
+  font-family: PoppinsMedium;
+  background-color: #41484e91;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  height: 43px;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.buttton-option-active {
+  font-family: PoppinsMedium;
+  background-color: #ff0303;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  height: 43px;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.buttton-option:hover {
+  background-color: #3c464ea6;
+}

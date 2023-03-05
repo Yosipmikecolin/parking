@@ -1,0 +1,80 @@
+.button-step {
+  font-family: PoppinsMedium;
+  background-color: #2d26f8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100px;
+  height: 43px;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.header-step {
+  display: flex;
+  justify-content: space-between;
+}
+
+.switch {
+  width: 100px;
+  background-color: orange;
+  border-radius: 5px;
+  display: flex;
+}
+
+.switch-left-no-active {
+  width: 50%;
+  background-color: #6762e4;
+  height: 100%;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms ease;
+}
+
+.switch-left-active {
+  width: 50%;
+  background-color: #2d26f8;
+  height: 100%;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms ease;
+}
+
+.switch-right-no-active {
+  width: 50%;
+  background-color: #6762e4;
+  height: 100%;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms ease;
+}
+
+.switch-right-active {
+  width: 50%;
+  background-color: #2d26f8;
+  height: 100%;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms ease;
+}
+
+@media (max-width: 500px) {
+  .button-step {
+    width: 100%;
+    margin: 20px 0px;
+  }
+}
