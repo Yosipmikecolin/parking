@@ -1,10 +1,8 @@
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useListForm } from "../../api/queries";
-import Button from "../../components/buttons/Button";
-import Input from "../../components/input/Input";
-import Select from "../../components/select/Select";
 import { FormDataSchema, TypeFormData } from "../../schemas/form-schema";
+import {Button,Input,Select} from "minimal-desing-react"
 import "./RegisterVehicle.css";
 import { ErrorMessage } from "../../components/errorMessage/ErrorMessage";
 

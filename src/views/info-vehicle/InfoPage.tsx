@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Cards } from "./components/cards/Cards";
 import { Table } from "./components/table/Table";
 import "./InfoPage.css";

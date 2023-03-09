@@ -1,13 +1,14 @@
-import TemplateLayout from "./components/template/Template";
 import IconRegister from "./assets/registro.svg";
 import IconSearch from "./assets/buscar.svg";
 import IconAgreement from "./assets/convenio.svg";
 import IconExit from "./assets/salida.svg";
 import IconAnalitic from "./assets/analisis.svg";
+import Logo from "./assets/logo.png";
 import { QueryClientProvider, QueryClient } from "react-query";
 
 import Form from "./views/register-vehicle/RegisterVehicle";
 import { SearchPage } from "./views/search-vehicle/SearchVehicle";
+import { Template } from "minimal-desing-react";
 
 function App() {
   const listRoutes = [
@@ -47,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <QueryClientProvider client={queryClient}>
-        <TemplateLayout listRoutes={listRoutes} />
+       <Template listRoutes={listRoutes} logo={Logo}/>
       </QueryClientProvider>
     </div>
   );

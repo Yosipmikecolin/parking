@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import Button from "../../components/buttons/Button";
 import InfoPage from "../info-vehicle/InfoPage";
 import ButtonOption from "./components/button-option/ButtonOption";
 import StepHeader from "./components/step-header/StepHeader";
+import {Button} from "minimal-desing-react"
 import "./SearchVehicle.css";
 
 interface Props {

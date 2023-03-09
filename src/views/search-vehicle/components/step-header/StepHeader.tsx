@@ -63,7 +63,7 @@ const StepHeader = ({
           className={!onSwitch ? "switch-left-active" : "switch-left-no-active"}
           onClick={showTable}
         >
-          <img src={IconTable} />
+          <img src={IconTable} alt="icon-table"/>
         </div>
         <div
           className={
@@ -71,7 +71,7 @@ const StepHeader = ({
           }
           onClick={showCard}
         >
-          <img src={IconCard} />
+          <img src={IconCard} alt="icon-card"/>
         </div>
       </div>
     </div>
