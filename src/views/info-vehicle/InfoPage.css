@@ -6,6 +6,6 @@
   flex-wrap: wrap;
   margin-top: 4em;
   padding-top: 2em;
-  gap: 20px;
   font-family: PoppinsRegular;
+  overflow: hidden;
 }

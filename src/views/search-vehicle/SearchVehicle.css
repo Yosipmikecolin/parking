@@ -9,6 +9,12 @@
   box-shadow: 0px 20px 45px -5px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width:643px) {
+  .content{
+    min-height: auto;
+  }
+}
+
 .card {
   align-items: center;
   background-color: white;
@@ -49,6 +55,19 @@
   font-size: 28px;
   text-align: center;
   margin-bottom: 20px;
+}
+
+@media (max-width: 554px) {
+  .col h2 {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 444px) {
+  .col h2 {
+    font-size: 17px;
+  }
 }
 
 .row {

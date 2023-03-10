@@ -5,7 +5,7 @@ export const Cards = ({ data, titles }: Props) => {
   return (
     <>
       {data.map((item, index) => (
-        <section className="card animate__animated animate__fadeIn" key={index}>
+        <section className="card-vehicle animate__animated animate__fadeIn" key={index}>
           <div className="col-card">
             <h1>Información</h1>
             <hr />

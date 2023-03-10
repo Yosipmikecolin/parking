@@ -15,11 +15,20 @@
 .header-step {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+@media (max-width:500px) {
+  .switch{
+    margin: auto;
+  }
 }
 
 .switch {
   width: 100px;
-  background-color: orange;
+  height: 50px;
   border-radius: 5px;
   display: flex;
 }
